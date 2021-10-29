@@ -1,0 +1,90 @@
+.container {
+     margin: auto;
+     width: 80%;
+}
+.nav {
+     width: 100%;
+     background-color: aquamarine;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 18px;
+     display:flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     padding:0;
+}
+.nav ul {
+     list-style: none;
+     /* padding: 5px; */
+}
+
+.nav ul li{
+     display: inline-block;
+     padding-right: 12px;
+}
+a {
+     text-decoration: none;
+     color:#f0f;
+}
+
+.nav ul li a:hover {
+     background-color:black;
+     color:#fff;
+}
+
+.intro {
+     font-variant-caps:all-petite-caps;
+     font-weight: bolder;
+     font-size: x-large;
+     text-align: justify; 
+}
+.intro_body {
+     text-align: justify;
+     font-size: large;
+}
+
+.introduction h2 {
+     text-align: center;
+     font-family:cursive;
+}
+
+.introduction{
+     width: 50%;
+     float: left;
+}
+
+.selfie {
+     width: 50%;
+     float: right;
+}
+
+.selfie img {
+     width: 80%;
+     height: auto;
+     padding-left: 50px;
+     margin-left:50px;
+     border-radius: 50%;
+     padding-top: 20px;
+}
+
+.big_head {
+     font-size: 50px;
+}
+.clearfix{
+     clear: both;
+}
+
+#jsfiles{
+     text-align: center;
+}
+
+#message {
+     background-color: aquamarine;
+     border: none;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 18px;
+     color: #f0f;
+}
+#message:hover {
+     background-color:black;
+     color:#fff;
+}
